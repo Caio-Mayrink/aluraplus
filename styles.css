@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --cor-de-fundo-do-site: #00030C;
+    --cor-principal: #FFFFFF;
+    --cor-secundaria: #F9F9F9;
+    --cor-terciaria: #C0C0C0;
+    --cor-de-fundo-do-butao: #167BF7;
+    --efeito-botao: #6cadfd;
+    --rodape-efeito-clique: #800080;
+
+    --texto-principal: 'Inter', sans-serif;
+}
+
+.fundo{
+    background-color: var(--cor-de-fundo-do-site);
+    color: var(--cor-principal);
+}
+
+.h1__combo__alura{
+    color: var(--cor-principal);
+    font-family: var(--texto-principal);
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+.combo__img{
+    margin: 2em 0 2em 0;
+}
+
+.img{
+    background-image: url("/img/alura1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.butao_azul{
+    font-family: var(--texto-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    display: block;
+    padding: 1em;
+    background-color: #167BF7;
+    color: var(--cor-principal);
+    border-radius: 10px;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.butao{
+    font-family: var(--texto-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid var(--cor-principal);
+    border-radius: 10px;
+    padding: 1em;
+    display: block;
+
+}
+
+.aviso__butao{
+    font-family: var(--texto-principal);
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--cor-terciaria);
+}
+
+.cabeçalho__conteudo{
+    margin: 0 5em;
+}
+
+.h2__assista__alura{
+    color: var(--cor-principal);
+    font-family: var(--texto-principal);
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.aviso__tela_grande{
+    font-family: var(--texto-principal);
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-terciaria);
+}
+
+.principal__conteudo{
+    width: 80%;
+    
+}
+
+.texto__assista{
+    align-items: center;
+    margin: 0 6em;
+}
+
+.texto__butao{
+    align-items: center;
+    margin: 2em;
+    padding: 2em;
+}
+
+.style__butao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.container__rodape{
+    text-align: center;
+    margin: 5em 0;
+
+}
+
+.rodape__titulo{
+    font-family: var(--texto-principal);
+    font-weight: 700;
+    font-size: 3em;
+    color: var(--cor-principal);
+    margin-bottom: 2em;
+}
+
+.lista{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.legenda{
+    color: var(--cor-principal);
+    font-family: var(--texto-principal);
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.lista__rodape{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 5em;
+    list-style-type: none;
+}
+
+.legenda__rodape{
+    color: var(--cor-principal);
+    font-family: var(--texto-principal);
+}
+
+.legenda__rodape_link{
+    text-decoration: none;
+    color: var(--cor-principal);
+    font-family: var(--texto-principal);
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.alura__rodape_creditos{
+    margin-bottom: 2em;
+    color: #C0C0C0;
+    font-family: var(--texto-principal);
+}
+
+.legenda__rodape a:hover{
+    color: var(--cor-de-fundo-do-butao);
+}
+
+.legenda__rodape a:active{
+    color: var(--rodape-efeito-clique);
+}
+
+.butao_azul:hover{
+    background-color: var(--efeito-botao);
+    color: var(--rodape-efeito-clique);
+}
+
+.butao:hover{
+    background-color: var(--efeito-botao);
+    color: var(--rodape-efeito-clique);
+}
